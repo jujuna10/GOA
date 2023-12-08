@@ -20,7 +20,12 @@ print(fl)
 
 
 print("after 10 years")
-age_after = [52, 62, 26, 34]
+age_after = []
+for i in age:
+    x = (i) + 10
+    age_after.append(x)
+
+# age_after = [52, 62, 26, 34]
 fl = "ჩემი დედაა {} არის {} წლის".format(family[1], age_after[0])
 print(fl)
 fl = "ჩემი მამაა {} არის {} წლის".format(family[0], age_after[1])
