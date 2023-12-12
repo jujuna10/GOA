@@ -29,6 +29,10 @@
 
 
 
+
+
+
+
 # str = "apple banana tomato strawbery"
 # x = str.split(" ")
 # print(x)
@@ -57,9 +61,12 @@
 #def - keywooard romliTc iqmneba funqcia
 #kvadratis_fartobi - funqciis saxeli
 #(gverdis_sigrdze) - funqciis parametri
-def kvadratis_fartobi(gverdos_sigrdze):
-    print(gverdos_sigrdze*gverdos_sigrdze)
+# def kvadratis_fartobi(gverdos_sigrdze):
+#     print(gverdos_sigrdze*gverdos_sigrdze)
 
 
-kvadratis_fartobi(8)
-kvadratis_fartobi(12)
+# kvadratis_fartobi(8)
+# kvadratis_fartobi(12)
+
+
+
