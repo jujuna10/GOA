@@ -1,0 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Mountains+of+Christmas:wght@400;700&family=Press+Start+2P&family=Roboto:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,700;1,900&display=swap');
+
+
+
+p,h1 {
+    font-size: 20px;
+    color: brown;
+    font-family:"Press Start 2P";
+    text-decoration-line: underline; 
+    text-decoration-color: yellow;
+    text-decoration-style: dashed;
+}
