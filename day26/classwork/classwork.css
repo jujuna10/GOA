@@ -1,0 +1,12 @@
+body{
+    background-color: black;
+}
+form{
+    text-align: center;
+}
+input{
+    font-size: 20px;
+    background-color: yellow;
+    border-radius: 8px;
+    color: black;
+}
