@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>form</title>
+        <style>
+            .user{
+                border: 1px solid black;
+                background-color: rgb(228, 240, 240);
+                padding: 50px;
+                margin-right: 600px;
+            }
+            label{
+                font-weight: 700;
+            }
+            .contact{
+                border: 1px solid black;
+                padding: 50px;
+                margin-right: 600px;
+                margin-top: 50px;
+                background-color: rgb(228, 240, 240);
+            }
+            .security{
+                border: 1px solid black;
+                padding: 50px;
+                margin-right: 600px;
+                margin-top: 50px;
+                background-color: rgb(228, 240, 240); 
+            }
+            .role{
+                border: 1px solid black;
+                padding: 50px;
+                margin-right: 600px;
+                margin-top: 50px;
+                background-color: rgb(228, 240, 240);
+            }
+            #roles{
+                font-weight: 700;
+            }
+            button{
+                float: right;
+                background-color: blue;
+                padding-right: 50px;
+                padding-bottom: 25px;
+            }
+        </style>
+    </head>
+    <body>
+        <h4>user</h4>
+        <div class="user">
+            <label for="name">user name*</label>
+            <br>
+            <br>
+            <input type="text" id="name">
+            <br>
+            <br>
+            <label for="first">first name*</label>
+            <br>
+            <br>
+            <input type="text" id="first">
+            <br>
+            <br>
+            <label for="last">last name*</label>
+            <br>
+            <br>
+            <input type="text" id="last">
+            <br>
+            <br>
+            <label for="language">language</label>
+            <br>
+            <br>
+            <select id="language">
+                <option>english</option>
+                <option>georgia</option>
+            </select>
+        </div>
+
+        
+        
+        <h4>contact information</h4>
+        <div class="contact">
+            <label for="email">email*</label>
+            <br>
+            <br>
+            <input type="email" id="email">
+            <br>
+            <br>
+            <label for="number">work phone*</label>
+            <br>
+            <br>
+            <input type="number" id="number">
+            <br>
+            <br>
+            <label for="number">number</label>
+            <br>
+            <br>
+            <input type="number" id="number">
+            <br>
+            <br>
+            <label for="box">notification preference</label>
+            <br>
+            <br>
+            <label for="box">email</label>
+            <input type="checkbox" id="box">
+            <label for="box2">sms</label>
+            <input type="checkbox" box2>
+            <p>standard message rates may apply</p>
+
+        </div>
+
+
+        <h4>security</h4>
+
+        <div class="security">
+            <label for="password">password*</label>
+            <br>
+            <br>
+            <input type="password" id="password">
+            <br>
+            <br>
+            <label for="password2">confirm password</label>
+            <br>
+            <br>
+            <input type="password" id="password2">
+
+        </div>
+
+
+        <h4>roles</h4>
+
+        <div class="role">
+            <p id="roles">roles</p>
+            <p>controls engineer</p>
+            <p>maintenance engineer</p>
+            <p>maintenance manager</p>
+            <p>profuction manager</p>
+
+
+        </div>
+
+        <button>ok</button>
+        <button>cancel</button>
+    
+        
+    </body>
+</html>

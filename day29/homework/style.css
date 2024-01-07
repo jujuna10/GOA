@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&family=Pixelify+Sans:wght@400;500;600;700&family=Poor+Story&family=Press+Start+2P&family=Roboto+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100&family=Roboto:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,700;1,900&family=Single+Day&display=swap');
+
+
+.navbar a{
+    float: right;
+    margin-right: 20px;
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+.navbar{
+    height:  70px;
+    background-color: black;
+}
+.navbar img{
+    margin-left: 100px;
+}
+.main{
+    height: 80vh;
+    margin-top: 50px;
+    margin-right: 200px;
+    margin-left: 200px;
+    background-color: rgb(97, 207, 97);
+
+    
+    
+}
+.main img{
+    display: flex;
+    align-items: baseline;
+    align-items: center;
+    float: right;
+    margin-right: 350px;
+    border-radius: 50%;
+    box-shadow: 2px 2px 35px rgb(0, 0, 10);
+
+}
+.main span{
+    font-family: "Pixelify Sans";
+    margin-left: 50px;
+}
+.courses p{
+    margin-top: 200px;
+}

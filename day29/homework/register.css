@@ -1,0 +1,45 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url("./download\ \(1\).jpeg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 1;
+}
+h2{
+    color: white;
+}
+.registration{
+    display: inline;
+    text-align: center;
+    border: 1px solid black;
+    padding: 50px;
+    border-radius: 8px;
+
+}
+input{
+    padding: 10px;
+    padding-bottom: 5px;
+
+}
+#button{
+    padding: 5px;
+    padding-right: 80px;
+    padding-left: 80px;
+    border-radius: 8px;
+    background-color: rgb(146, 146, 219);
+}
+#sign{
+    padding: 5px;
+    padding-right: 80px;
+    padding-left: 80px;
+    border-radius: 8px;
+    background-color: rgb(146, 146, 219);
+
+}
+#registration{
+    font-size: 20px;
+}
