@@ -1,0 +1,209 @@
+body{
+    background-color: rgb(231, 217, 217);
+    margin-top: 10px;
+}
+.sidebar *{
+    margin-top: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+.sidebar{
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 10px;
+    overflow: hidden;
+    height: 100vh;
+    background-image: linear-gradient( 58.2deg,  rgba(40,91,212,0.73) -3%, rgba(171,53,163,0.45) 49.3%, rgba(255,204,112,0.37) 97.7% );
+    transition-duration: 1s;
+    
+}
+.sidebar:hover{
+    width: 250px;
+    height: 100%;
+    margin-left: 0px;
+}
+.sidebar *{
+    opacity: 0;
+}
+.sidebar:hover * {
+    opacity: 1;
+}
+header{
+    color: white;
+    text-align: center;
+    font-size: 18px;
+}
+.sidebar img:hover{
+    width: 50;
+    height: 50;
+}
+.sidebar img{
+    margin-left: 0;
+    width: 0%;
+    height: 0%;
+    object-fit: cover;
+}
+.sidebar:hover img{
+    margin-top: 20px;
+    transition-duration: 1s;
+    width: 20%;
+    height: 20%;
+}
+
+
+li{
+    display: inline;
+}
+.sidebar a{
+    font-size: 0px;
+}
+.sidebar:hover a{
+    font-size: 20px;
+    transition-duration: 1s;
+}
+.sidebar a{
+    width: 5%;
+    height: 5%;
+    object-fit: cover;
+}
+
+p{
+    font-size: 20px;
+    color: white;
+    opacity: 1;
+    transition: opasity 0.5s;
+    text-align: center;
+}
+.sidebar:hover p{
+    opacity: 0;
+}
+
+
+.mininavbar{
+    margin-left: 1450px;
+}
+.mininavbar a{
+    margin-right: 20px;
+    text-decoration: none;
+    color: black;
+    font-weight: 700;
+}
+
+.navbar{
+    margin-left: 250px;
+    margin-top: 100px; 
+    height: 70px;
+}
+.navbar a{
+    text-decoration: none;
+    color: black;
+    margin-right: 20px;
+    font-weight: 600;
+    transition-duration: 1s;
+}
+.navbar a:hover{
+    margin-left: 10px;
+}
+#nike{
+    margin-right: 400px;
+    margin-left: 50px;
+}
+.navbar button{
+    width: 150px;
+    margin-left: 200px;
+    border-radius: 35px;
+    background-color: rgba(231, 217, 217, 0.432);
+    padding: 5px;
+    margin-bottom: 20px;
+}
+.navbar button img{
+    margin-right: 20px;
+
+}
+#hearth{
+    margin-left: 70px;
+}
+#basket{
+    margin-left: 35px;
+}
+
+
+
+.navbar{
+    background-color: white;
+}
+.main{
+    margin-left: 250px;
+    margin-top: 100px;
+    
+}
+.main img{
+    margin-left: 35px;
+}
+.main p{
+    font-weight: 800;
+    color: black;
+    font-size: 25px;
+    margin-right: 1400px;
+
+}
+span{
+    margin-left: 200px;
+    font-weight: 800;
+}
+.main a{
+    color: black;
+    text-decoration: none;
+}
+#secondd{
+    margin-left: 180px;
+}
+#third{
+    margin-left: 160px;
+}
+#typee{
+    margin-left: 170px;
+}
+#typeee{
+    margin-left: 220px;
+}
+#pricee{
+    margin-left: 245px;
+}
+#priceee{
+    margin-left: 274px;
+}
+.type{
+    color: gray;
+}
+.sport img{
+    margin-right: 35px;
+}
+.contact{
+    text-align: left;
+        background-color: rgb(153, 141, 141);
+
+    margin-top: 100px;
+    padding: 80px;
+    margin-left: 250px;
+}
+.contact img{
+    margin-right: 20px;
+    transition-duration: 1s;
+}
+#message{
+    padding: 25px;
+}
+form{
+    float: right;
+}
+.contact img:hover{
+    margin-left: 8px;
+}
+.contact button{
+    margin-left:60px;
+    border-radius: 8px;
+    width: 120px;
+}
