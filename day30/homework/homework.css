@@ -1,0 +1,53 @@
+body{
+    background-color: rgb(160, 150, 150);
+
+}
+
+.navbar a{
+    margin-right: 20px;
+    text-decoration: none;
+    color: white;
+    font-weight: 700;
+}
+
+.navbar{
+    background-color: rgb(54, 39, 39);
+}
+
+.main{
+    margin-right: 200px;
+    margin-left: 200px;
+    margin-bottom: 200px;
+}
+#img{
+    margin-right: 1400px;
+}
+
+
+.main span{
+    font-weight: 700;
+}
+.main img{
+    display: flex;
+    align-items: baseline;
+    align-items: center;
+    margin-bottom: 50px;
+}
+#image{
+    float: right;
+}
+img{
+    border-radius: 50%;
+    box-shadow: 10, 10, 10 rgb(0,0,10);
+}
+.contact{
+    padding-bottom: 100px;
+}
+.contact a{
+    text-decoration: none;
+    color: black;
+}
+video{
+    float: right;
+    margin-top: 200px;
+}
