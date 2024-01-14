@@ -1,0 +1,118 @@
+body{
+    margin: 0;
+}
+
+#firstimg{
+    margin-left: 400px;
+    margin-right: 20px;
+
+}
+.mininavbar span{
+    font-weight: 700;
+    font-size: 20px;
+    margin-right: 700px;
+    color: white;
+}
+.imgg{
+    margin-left: 20px;
+}
+.mininavbar{
+    background-color: rgb(38, 49, 73);
+    padding-bottom: 25px;
+}
+.navbar{
+    display: flex;
+    align-items: baseline;
+    align-items: center;
+    margin-top: 35px;
+    margin-left: 250px;
+}
+.navbar img{
+    border-radius: 50%;
+}
+.navbar span{
+    margin-left: 10px;
+    font-size: 28px;
+    font-weight: 700;
+}
+#digi{
+    color: blue;
+}
+.navbar a{
+    text-decoration: none;
+    color: black;
+    margin-right: 10px;
+    font-size: 50;
+}
+#firsta{
+    margin-left: 500px;
+}
+.navbar button{
+    padding: 15px;
+    background-color: blueviolet;
+    border-radius: 8px;
+}
+.main {
+    position: relative;
+    margin: 0;
+}
+.text{
+    position: absolute;
+    top: 0;
+    color: black;
+    margin-top: 150px;
+    margin-left: 200px;
+}
+#firsttext{
+    text-decoration:underline;
+    font-weight: 500;
+    font-size: 25px;
+}
+#secondspan{
+    font-size: 20px;
+    font-weight: 500;
+}
+.main p{
+    font-size: 70px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.main button{
+    padding: 20px;
+    width: 150px;
+    background-color: blueviolet;
+    color: white;
+}
+.why{
+    text-align: center;
+}
+.mainn{
+    margin-top: 50px;
+    background-color: rgb(134, 71, 71);
+    padding-bottom: 200px;
+}
+.mainn p{
+    font-size: 35px;
+    margin-top: 10px;
+}
+#reason{
+    margin-left: 200px;
+    margin-right: 1000px;
+    font-size: 20px;
+    background-color: gray;
+}
+.contact{
+    margin-top: 50px;
+    padding-bottom: 50px;
+    background-color: blue;
+}
+.contact span{
+    color: white;
+}
+.contact2{
+    display: flex;
+    flex-direction: row-reverse;
+}
+.contact2 img{
+    margin-right: 30px;
+}
