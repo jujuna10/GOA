@@ -1,0 +1,27 @@
+.navbar a{
+    float: right;
+    margin-left: 20px;
+    color: gray;
+    text-decoration: none;
+}
+.navbar img{
+    margin-left: 200px;
+}
+.about{
+    margin-left: 200px;
+    margin-right: 200px;
+    font-size: 25px;
+    font-weight: 500;
+}
+.first{
+    margin-left: 200px;
+}
+.first span{
+    text-decoration: none;
+}
+.second{
+    margin-left: 200px;
+}
+.third{
+    margin-left: 200px;
+}

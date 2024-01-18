@@ -1,0 +1,15 @@
+span{
+    font-size: 20px;
+    font-weight: 6006;
+}
+.article img{
+    float: right;
+    margin-left: 1300px;
+    margin-right: 5px;
+    margin-bottom: 10px;
+
+}
+.article a{
+    float: left;
+    text-decoration: none;
+}
