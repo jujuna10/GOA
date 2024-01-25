@@ -1,0 +1,33 @@
+.title{
+    display: flex;
+    justify-content: space-between;
+}
+.center{
+    font-size: 25px;
+    font-weight: 900;
+}
+.left{
+    display: flex;
+    gap: 45px;
+    margin-left: 150px;
+    font-size: 18px;
+}
+.right{
+    margin-right: 150px;
+}
+button{
+    border: 4px solid yellow;
+    width: 90px;
+    height: 28px;
+    font-size: 15px;
+}
+.main{
+    display: flex;
+    justify-content: space-around;
+}
+#text{
+    display: flex;
+    gap: 75px;
+    font-size: 18px;
+    font-weight: 600;
+}
