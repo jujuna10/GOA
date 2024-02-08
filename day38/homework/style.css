@@ -1,0 +1,163 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400;500;600;700&family=Dancing+Script:wght@400;500;600;700&family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&family=Pixelify+Sans:wght@400;500;600;700&family=Poor+Story&family=Press+Start+2P&family=Roboto+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100&family=Roboto:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,700;1,900&family=Single+Day&family=Young+Serif&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: hsl(30, 18%, 87%);
+}
+.main{
+    width: 700px;
+    height: auto;
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 10px;
+    margin-top: 45px;
+    padding-bottom: 25px;
+    margin-bottom: 25px;
+    display: flex;
+    flex-direction: column;
+
+}
+.main img{
+    margin-left: 65px;
+    margin-top: 35px;
+    border-radius: 10px;
+    width: 80%;
+    height: 300px;
+}
+h1{
+    font-family: "Young Serif";
+
+}
+
+#name{
+    padding-top: 25px;
+    font-family: "Young Serif";
+    color: hsl(24, 5%, 18%);
+    margin-left: 65px;
+
+}
+p{
+    max-width: 600px;
+    line-height: 22px;
+    color: hsl(24, 5%, 18%);
+    margin-top: 20px;
+    margin-left: 65px;
+
+}
+.time{
+    margin-top: 20px;
+    margin-left: 65px;
+    background-color: hsl(330, 100%, 98%);
+    border-radius: 8px;
+    max-width: 580px;
+    padding-bottom: 35px;
+    padding-top: 10px;
+}
+.time *{
+    margin-top: 15px;
+    margin-left: 30px;
+    
+}
+.time h2{
+    margin-left: 35px;
+}
+
+ul{
+    margin-left: 50px;
+}
+.time span{
+    color: hsl(14, 45%, 36%);
+    font-weight: 800;
+}
+.time h2{
+    color: hsl(332, 51%, 32%);
+}
+.time li{
+    font-weight: 500;
+}
+.ingredients h1{
+    color: hsl(14, 45%, 36%); 
+    margin-left: 65px;
+    font-weight: 600;
+}
+.ingredients *{
+    margin-left: 35px;
+}
+li{
+    margin-top: 15px;
+    color: hsl(332, 51%, 32%);
+    font-weight: 500;
+}
+hr{
+    margin-right: 35px;
+    margin-top: 45px;
+    margin-left: 35px;
+}
+.instructions li{
+    margin-left: 65px;
+}
+.instructions h1{
+    margin-left: 58px;
+    color: hsl(14, 45%, 36%);
+}
+.instructions span{
+    color: hsl(24, 5%, 18%);
+    font-weight: 700;
+}
+.instructions li{
+    color: hsl(30, 10%, 34%);
+}
+.instructions hr{
+    margin-left: 28px;
+}
+.nutrition h1{
+    margin-left: 58px;
+    color: hsl(14, 45%, 36%);
+}
+.one{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+.one p{
+    color: hsl(30, 10%, 34%);
+    font-weight: 700;
+}
+.nutrition hr{
+    margin-top: 0px;
+}
+.two{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.two p{
+    color: hsl(30, 10%, 34%);
+    font-weight: 700;
+}
+.three{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.three p{
+    color: hsl(30, 10%, 34%);
+    font-weight: 700;
+}
+.four{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.four p{
+    color: hsl(30, 10%, 34%);
+    font-weight: 700;
+}
