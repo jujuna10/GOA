@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.top{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+.child{
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    transform: rotate(360deg);
+    animation: rotate 4s linear infinite, changeColor 2s ease-in-out infinite alternate;;
+}
+@keyframes rotate {
+    from {
+      transform:  rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+}
+@keyframes changeColor{
+    0%{
+        background-color: red;
+    }
+    20%{
+        background-color: green;
+    }
+    50%{
+        background-color: rgb(2, 179, 2);
+    }
+    100%{
+        background-color: yellow;
+    }
+}
