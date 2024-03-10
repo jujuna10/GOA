@@ -1,0 +1,24 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.parent{
+    display: flex;
+    gap: 20px;
+    width: 1000px;
+}
+.parent div{
+    width: 100px;
+    height: 100px;
+    background-color: yellow;
+}
+@media screen and (max-width:600px){
+    .parent{
+        flex-direction: column;
+    }
+    .parent div{
+        width: 100%;
+
+    }
+}
