@@ -28,7 +28,8 @@ h1{
 .navbar {
     margin-top: 20px;
 }
-.main{
+.
+main{
     display: flex;
     flex-direction: column;
 }
@@ -106,6 +107,11 @@ h1{
     margin-top: 200px;
     margin-left: 100px;
 }
+#img{
+    animation-name: img;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
 @keyframes button{
     0%{
         box-shadow: 0px 0px 5px white;
@@ -121,6 +127,96 @@ h1{
         box-shadow: 0px 0px 5px white;
         border: 8px;
 
+
+    }
+}
+@keyframes img{
+    0%{
+        transform: scale(0.9);
+    }
+    50%{
+        transform: scale(1);
+    }
+    100%{
+        transform: scale(0.9);
+    }
+}
+#fb{
+    box-shadow: 0px 0px 20px rgb(8,102,255);
+    animation-name: fb;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+@keyframes fb{
+    0%{
+        box-shadow: 0px 0px 20px rgb(8,102,255);
+
+    }
+    50%{
+        box-shadow: 0px 0px 50px rgb(8,102,255);
+
+    }
+    100%{
+            box-shadow: 0px 0px 20px rgb(8,102,255);
+
+    }
+}
+#insta{
+    box-shadow: 0px 0px 20px rgb(145, 255, 0);
+    animation-name: insta;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+@keyframes insta{
+    0%{
+        box-shadow: 0px 0px 20px rgb(145, 255, 0);
+
+    }
+    50%{
+        box-shadow: 0px 0px 50px rgb(145, 255, 0);
+
+    }
+    100%{
+        box-shadow: 0px 0px 20px rgb(145, 255, 0);
+
+    }
+}
+#twitt{
+    box-shadow: 0px 0px 20px rgb(36,158,240);
+    animation-name: twitt;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+@keyframes twitt{
+    0%{
+        box-shadow: 0px 0px 20px rgb(36,158,240);
+
+    }
+    50%{
+        box-shadow: 0px 0px 50px rgb(36,158,240);
+
+    }
+    100%{
+        box-shadow: 0px 0px 20px rgb(36,158,240);
+
+    }
+}
+#youtu{
+    box-shadow: 0px 0px 20px rgb(255 ,0 ,0);
+    animation-name: youtu;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+@keyframes youtu{
+    0%{
+        box-shadow: 0px 0px 20px rgb(255 ,0 ,0);
+
+    }
+    50%{
+        box-shadow: 0px 0px 50px rgb(255 ,0 ,0);
+    }
+    100%{
+        box-shadow: 0px 0px 20px rgb(255 ,0 ,0);
 
     }
 }

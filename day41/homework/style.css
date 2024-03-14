@@ -1,5 +1,7 @@
 *{
+    margin: 0;
     padding: 0;
+    font-family: 'Roboto';
 }
 body{
     box-sizing: border-box;
@@ -10,6 +12,9 @@ body{
 }
 .img{
     filter: invert(100%);
+}
+h1{
+    color: white;
 }
 .navbar{
     display: flex;
@@ -66,6 +71,7 @@ body{
 }
 .text2{
     color: white;
+    margin-top: 20px;
 }
 .contact button{
     margin-top: 20px;

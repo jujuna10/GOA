@@ -70,3 +70,15 @@
 
 
 
+# my_list = [1, 2, 3, 4, 5]
+# index_to_remove = 2
+# my_list.pop(index_to_remove)  # Removes the element at index 2
+# print(my_list)
+
+
+
+
+
+
+
+
