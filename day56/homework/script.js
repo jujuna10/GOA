@@ -18,7 +18,6 @@
 
 
 function userInfo(){
-    event.preventDefault(event)
 
 
     const name = document.getElementById("name").value;
