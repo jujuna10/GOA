@@ -1,10 +1,10 @@
-
+ 
 //  1. Transforming Data: Given an array of objects representing people with their ages, use the map function to create a new array 
 // containing only the names of these people.
 // const persons = [
-//     {firstname : "Malcom", age:18},
-//     {firstname : "Kaylee", age:10},
-//     {firstname : "Jayne", age:20}
+//     {firstname : "giorgi", age:18},
+//     {firstname : "sandro", age:10},
+//     {firstname : "irakli", age:20}
 // ];
 
 // const names = persons.map(function(value){
@@ -19,10 +19,15 @@
 // const numbers = [10,19,20,17,18,90,100]
 // const primeNumber = numbers.map(function(value){
 //     for(let i = 0; i < numbers.length; i++)
-//         if(value % i == 0 || value % (i + 2) == 0){
+//         if(value < 1){
 //             return false
-//         }else{
-//             return true
+//         }
+//         for(let i = 2; i < value; i++){
+//             if(value % i == 0){
+//                 return false
+//             }else{
+//                 return true
+//             }
 //         }
 // })
 
@@ -32,24 +37,18 @@
 // array containing only the students who passed the exam (i.e., whose grades are above a certain threshold).
 
 // const students = [
-//     {firstname : "Malcom", grade:100},
-//     {firstname : "Kaylee", grade:70},
-//     {firstname : "Jayne", grade:90},
-//     {firstname : "walker", grade:70},
+//     {firstname : "giorgi", grade:100},
+//     {firstname : "sandro", grade:70},
+//     {firstname : "irakli", grade:90},
+//     {firstname : "tornike", grade:70},
 
 // ];
 
-// const grades = students.map(function(value){
+// const grades = students.filter(function(value){
 //     if(value.grade > 70){
 //         return value.firstname
 //     }else{
 //         return null
-//     }
-// }).filter(function(value){
-//     if(value != null){
-//         return true
-//     }else{
-//         return false
 //     }
 // })
 

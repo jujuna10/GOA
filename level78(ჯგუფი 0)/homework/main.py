@@ -116,7 +116,6 @@
 # dict(dic1)
 
 
-#
 # 11. Factorial Function: Write a function to compute the factorial of a non-negative integer. The factorial of a number n is the
 # product of all positive integers less than or equal to n.
 
