@@ -5,11 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9e9bf0d9-4304-4397-9ce3-62a14dfcef11" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/GOA.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/GOA.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/level78(ჯგუფი 0)/homework/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/level78(ჯგუფი 0)/homework/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/level79(ჯგუფი 0)/homework/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/level79(ჯგუფი 0)/homework/script.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/level82/classwork/main.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/level82/homework/main.py" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,7 +48,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "master",
-    "last_opened_file_path": "/home/jujuna/Desktop/GOA",
+    "last_opened_file_path": "/home/jujuna/Desktop/test",
     "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
   }
 }]]></component>
