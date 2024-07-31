@@ -315,3 +315,94 @@
 // })
 
 // console.log(isSeven)
+
+// indexOf:
+// Index of First Occurrence of a Character: Find the index of the first occurrence of a specific character in a string.
+// const string = "sjidis"
+// const firstLetterIndex = string.indexOf("i")
+// console.log(firstLetterIndex)
+
+// Index of First Occurrence of a Number: Determine the index of the first occurrence of a specific number in an array.
+// const numbers = [1,2,3,4,5,6,7,8,9,10]
+// const indexOfSeven = numbers.indexOf(7)
+// console.log(indexOfSeven)
+
+
+// Index of First Occurrence of a Substring: Find the index of the first occurrence of a specific substring in a string.
+// პირობა ვერ გავიგე
+
+// Index of First Occurrence of an Element in an Array of Objects: Determine the index of the first occurrence of a specific element in an array of 
+//objects based on a particular property value.
+// const users = [
+//     {name:"djsos",
+//     status:"user"},
+    
+//     {name:"djiskosj",
+//     status:"admin"},
+    
+//     {name:"disijako",
+//     status:"admin"},
+    
+//     {name:"sjiakosji",
+//     status:"user"}
+// ]
+// const firstAdmin = users.map(user => user.status).indexOf("admin")
+// console.log(firstAdmin)
+
+
+// lastIndexOf:
+// Last Index of a Character in a Sentence: Find the last index of a specific character in a given sentence.
+// const string = "fkodkoslspo"
+// const firstLetterIndex = string.lastIndexOf("s")
+// console.log(firstLetterIndex)
+
+// Last Index of a Prime Number in an Array: Determine the last index of a prime number in an array of integers.
+// const numbers = [1,5,8,4,9,3,10]
+// const isPrime = numbers.findLastIndex(function(value){
+//     let count = 0
+//     for(let i = 0; i <= value; i++){
+//         if(count > 2){
+//             return false
+//         }
+
+    
+//         if(value % i == 0){
+//             count++
+//         }
+//     }
+//     return true
+// })
+// console.log(isPrime)
+
+
+// Last Index of a Word in an Array of Strings: Find the last index of a specific word in an array of strings.
+// const stringsAArray = ["kodokd","dokdkod","dkodk","dkodok","dkodk","dkodk"]
+// const lastStringInArray = stringsAArray.findLastIndex(function(value){
+//     return value
+// })
+// console.log(lastStringInArray)
+
+// Last Index of an Active User in an Array of Objects: Determine the last index of an active user object in an array based on an isActive property.
+
+// const users = [
+//     {name:"djsos",
+//     isActive:true},
+    
+//     {name:"djiskosj",
+//     isActive:false},
+    
+//     {name:"disijako",
+//     isActive:true},
+    
+//     {name:"sjiakosji",
+//     isActive:false}
+// ]
+
+// const isActive = users.findLastIndex(function(value){
+//     return value.isActive === true
+// })
+// console.log(isActive)
+
+
+
+
