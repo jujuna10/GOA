@@ -1,6 +1,8 @@
+import dogImage from "../assets/images.jpeg";
+
 function ImageOfDog(){
     return (
-        <img src="./src/assets/images.jpg"/>
+        <img src={dogImage}/>
     )
 }
 
