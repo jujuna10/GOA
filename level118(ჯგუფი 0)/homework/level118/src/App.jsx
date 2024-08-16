@@ -29,10 +29,10 @@ function App() {
       {/* <Password /> */}
       {/* <ButtonVisibility /> */}
       {/* <ButtonLength /> */}
-      {/* <Timer /> */}
+      <Timer />
       {/* <Color /> */}
       {/* <Carousel /> */}
-      <FunctionOfToDo />
+      {/* <FunctionOfToDo /> */}
     </div>
   
   )

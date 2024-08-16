@@ -8,8 +8,7 @@ function Timer(){
     const [second,setSecond] = useState(60)
 
     function timer(){
-        setInterval(() => setSecond(second - 1),1000)
-
+        setSecond(() => setInterval(second - 1),1000)
     }
     
 
