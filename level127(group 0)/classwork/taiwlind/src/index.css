@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+    .input-style {
+      @apply  border border-black rounded-md;
+      width: 200px;
+    }
+  }
+  
+@layer utilities {
+.button {
+    /* transform: translateX(-800px); */
+    border: 1px solid black;
+    width: 100px;
+    border-radius: 10px;
+}
+}
+  
