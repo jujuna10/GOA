@@ -1,9 +1,9 @@
 import React from 'react'
 
-export default function Home() {
+export default function Home2() {
   return (
     <div>
-        <p>pdkodokdok/</p>
+        <p>home2</p>
     </div>
   )
 }

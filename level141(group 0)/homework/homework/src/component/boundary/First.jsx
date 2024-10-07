@@ -9,6 +9,13 @@ class ErrorBoundary extends React.Component{
         return { hasError: error }
       }
 
+    componentDidCatch(error,errorInfo){
+        console.log(error)
+        console.log(errorInfo)
+    }
+
+    
+
       render(){
         if(this.state.hasError){
             return(
